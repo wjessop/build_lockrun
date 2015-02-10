@@ -1,6 +1,6 @@
 # lockrun builder
 
-The lockrun builder is for building lockrun and packaging it up. Right now it supports .debs, submit pull requests for other package formats.
+The [lockrun](http://www.unixwiz.net/tools/lockrun.html) builder is for building lockrun and packaging it up. Right now it supports .debs, submit pull requests for other package formats.
 
 ## Running it.
 
