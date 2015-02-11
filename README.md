@@ -16,8 +16,8 @@ See [DOCKER.md](./DOCKER.md).
 ## Usage
 
     $ VERSION=1.0.0 ./build.sh
-    $ # Note the last built container id and use it in the next command
-    $ docker cp <container id>:/tmp/lockrun-1.0.0~37s-x86_64.deb .
+    $ # Note the last built image id and use it in the next command
+    $ docker run -v `pwd`:/mnt <image id> cp /tmp/lockrun-1.0.0~37s-x86_64.deb /mnt/
 
 ## How to contribute
 
